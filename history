@@ -1,0 +1,54 @@
+  422  cat > 'home_animals'
+  423  cat home_animals
+  424  cat > 'pack_animals'
+  425  cat pack_animals
+  426  cat home_animals pack_animals > 'animals'
+  427  cat animals
+  428  mv animals 'human_friends'
+  429  mkdid newDir
+  430  mv human_friends newDir/
+  431  cat human_friends
+  432  mkdir newDir
+  433  mv human_friends newDir/
+  434  ls
+  435  git add home_animals 
+  436  git add pack_animals 
+  437  git add newDir/
+  438  git push 
+  439  git commit -m "task_1_and_2"
+  440  git push 
+  441  wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+  442  sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb 
+  443  sudo apt-get update
+  444  sudo apt-get install mysql-server
+  445  sudo apt-get upgrade
+  446  sudo apt-get install mysql-server
+  447  apt-cache policy mysql-server
+  448  sudo apt-cache policy mysql-server
+  449  sudo apt install mysql-client mysql-community-server mysql-server
+  450  sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb 
+  451  sudo apt update
+  452  apt-cache policy mysql-server
+  453  sudo apt-cache policy mysql-server
+  454  sudo apt install mysql-client mysql-community-server mysql-server
+  455  wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+  456  sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+  457  sudo apt-get update
+  458  sudo apt-get install mysql-server
+  459  sudo apt update
+  460  sudo apt upgrade
+  461  sudo apt install mysql-server
+  462  sudo apt -f install mysql-server
+  463  apt-get -f install
+  464  sudo apt-get -f install
+  465  sudo apt install mysql-server
+  466  mysql-server -v
+  467  mysql-server --v
+  468  mysql-server version
+  469  mysqld --version
+  470  systemctl status mysql
+  471  wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+  472  sudo dpkg -i mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+  473  sudo dpkg -r mysql-connector-j
+  474  sudo apt-get autoremove
+  475  history
